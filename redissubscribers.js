@@ -4,8 +4,8 @@
 
 //2 : My two channels
 //127.0.0.1:6379> PUBSUB CHANNELS 
-//1) "events"
-//2) "commands"
+//1) "channel1"
+//2) "channel2"
 
 var redis = require('redis');
 var redis_client = redis.createClient();       
